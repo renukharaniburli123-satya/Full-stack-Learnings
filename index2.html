@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Placement Preparation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #111827;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        .intro {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .intro h2 {
+            color: #1d4ed8;
+            margin-bottom: 10px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card li {
+            margin: 8px 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section > h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        .roadmap {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .roadmap-item {
+            border-left: 5px solid #2563eb;
+            padding: 15px 20px;
+            margin: 15px 0;
+            background-color: #eff6ff;
+        }
+
+        .roadmap-item h3 {
+            color: #1d4ed8;
+        }
+
+        .tips {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .tip {
+            background: #1e40af;
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .resume {
+            background: #ecfdf5;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 6px solid #10b981;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>CSE Placement Preparation</h1>
+        <p>Your Complete Roadmap to Crack Campus Placements</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Introduction -->
+        <section id="home">
+            <div class="intro">
+                <h2>Welcome CSE Students!</h2>
+                <p>
+                    Prepare for software placements with a structured approach.
+                    Improve your aptitude, coding, technical knowledge,
+                    communication skills, resume and interview performance.
+                </p>
+
+                <a href="https://joinsaarthi.com/"><input type="button" name="Start Preparation" value="Start preparation"/></a>
+            </div>
+        </section>
+
+        <!-- Subjects -->
+        <section id="subjects">
+            <h2>Core Subjects</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Data Structures</h3>
+                    <ul>
+                        <li>Arrays</li>
+                        <li>Linked Lists</li>
+                        <li>Stacks & Queues</li>
+                        <li>Trees</li>
+                        <li>Graphs</li>
+                        <li>Hashing</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>DBMS</h3>
+                    <ul>
+                        <li>SQL Queries</li>
+                        <li>Normalization</li>
+                        <li>Keys</li>
+                        <li>Transactions</li>
+                        <li>Joins</li>
+                        <li>Indexing</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Operating Systems</h3>
+                    <ul>
+                        <li>Processes</li>
+                        <li>Threads</li>
+                        <li>Scheduling</li>
+                        <li>Deadlocks</li>
+                        <li>Memory Management</li>
+                        <li>Virtual Memory</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Computer Networks</h3>
+                    <ul>
+                        <li>OSI Model</li>
+                        <li>TCP/IP</li>
+                        <li>HTTP & HTTPS</li>
+                        <li>DNS</li>
+                        <li>IP Addressing</li>
+                        <li>Routing</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Coding -->
+        <section id="coding">
+            <h2>Coding Preparation</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Programming Languages</h3>
+                    <p>Choose one language and become strong in:</p>
+                    <ul>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Problem Solving</h3>
+                    <ul>
+                        <li>Arrays & Strings</li>
+                        <li>Sorting & Searching</li>
+                        <li>Recursion</li>
+                        <li>Dynamic Programming</li>
+                        <li>Graphs</li>
+                        <li>Greedy Algorithms</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Aptitude</h3>
+                    <ul>
+                        <li>Quantitative Aptitude</li>
+                        <li>Logical Reasoning</li>
+                        <li>Verbal Ability</li>
+                        <li>Data Interpretation</li>
+                        <li>Time & Work</li>
+                        <li>Probability</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Roadmap -->
+        <section id="roadmap">
+            <h2>6-Month Placement Roadmap</h2>
+
+            <div class="roadmap">
+
+                <div class="roadmap-item">
+                    <h3>Month 1 – Programming Basics</h3>
+                    <p>
+                        Learn one programming language and practice basic
+                        programming problems every day.
+                    </p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Month 2 – Data Structures</h3>
+                    <p>
+                        Focus on arrays, strings, linked lists, stacks,
+                        queues, trees and hashing.
+                    </p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Month 3 – Algorithms</h3>
+                    <p>
+                        Practice sorting, searching, recursion, greedy
+                        algorithms, graphs and dynamic programming.
+                    </p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Month 4 – Core CS Subjects</h3>
+                    <p>
+                        Revise DBMS, Operating Systems, Computer Networks
+                        and Object-Oriented Programming.
+                    </p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Month 5 – Projects & Resume</h3>
+                    <p>
+                        Build projects, improve your GitHub profile and
+                        prepare a clear, professional resume.
+                    </p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Month 6 – Mock Interviews</h3>
+                    <p>
+                        Practice aptitude tests, coding assessments,
+                        technical interviews and HR interviews.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <section>
+            <h2>Resume Preparation</h2>
+
+            <div class="resume">
+                <h3>What Your Resume Should Include</h3>
+                <br>
+
+                <ul>
+                    <li>Career Objective / Summary</li>
+                    <li>Education</li>
+                    <li>Technical Skills</li>
+                    <li>Projects</li>
+                    <li>Internships</li>
+                    <li>Certifications</li>
+                    <li>Achievements</li>
+                    <li>Competitive Programming Profiles</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Interview Tips -->
+        <section id="tips">
+            <h2>Placement Tips</h2>
+
+            <div class="tips">
+
+                <div class="tip">
+                    <h3>Practice Daily</h3>
+                    <p>
+                        Solve coding and aptitude problems consistently
+                        instead of studying only before placement tests.
+                    </p>
+                </div>
+
+                <div class="tip">
+                    <h3>Build Projects</h3>
+                    <p>
+                        Create real-world projects that demonstrate your
+                        programming and problem-solving skills.
+                    </p>
+                </div>
+
+                <div class="tip">
+                    <h3>Improve Communication</h3>
+                    <p>
+                        Practice explaining your projects, technical concepts
+                        and solutions clearly.
+                    </p>
+                </div>
+
+                <div class="tip">
+                    <h3>Take Mock Interviews</h3>
+                    <p>
+                        Participate in mock technical and HR interviews to
+                        become comfortable with interview situations.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CSE Placement Preparation | Learn • Practice • Succeed</p>
+    </footer>
+
+</body>
+</html>
